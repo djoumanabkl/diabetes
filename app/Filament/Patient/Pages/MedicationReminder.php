@@ -16,7 +16,7 @@ use Filament\Notifications\Notification;
 class MedicationReminder extends Page
 {
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
-
+    protected static ?int $navigationSort = 5;
     protected static string $view = 'filament.patient.pages.medication-reminder';
     public Collection $medications; // Déclaration typée
 

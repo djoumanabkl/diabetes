@@ -11,6 +11,12 @@ class CalculInsuline extends Page
     protected static string $view = 'filament.patient.pages.calcul-insuline';
     protected static ?string $navigationLabel = 'Calculateur d\'Insuline';
 
+    protected static ?int $navigationSort = 4;
+
+    // add icon
+    protected static ?string $navigationIcon = 'heroicon-o-calculator';
+
+
     public $blood_glucose;
     public $target_glucose;
     public $carbohydrates;

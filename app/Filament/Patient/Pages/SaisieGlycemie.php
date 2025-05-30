@@ -27,7 +27,7 @@ class SaisieGlycemie extends Page implements HasForms
     protected static ?string $navigationLabel = 'Saisie glycémie';
     protected static ?string $title = 'Enregistrer une mesure';
     protected static ?string $slug = 'saisie-glycemie';
-
+    protected static ?int $navigationSort = 3;
     public ?array $data = [];
 
     public function mount(): void

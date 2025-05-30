@@ -17,7 +17,7 @@ class InsulinCalculator extends Page implements Forms\Contracts\HasForms
     protected static ?string $navigationIcon = 'heroicon-o-calculator';
     protected static string $view = 'filament.pages.insulin-calculator';
     protected static ?string $title = 'حاسبة جرعة الإنسولين';
-
+    
     public $current_glucose;
     public $carbs;
     public $carb_ratio;
